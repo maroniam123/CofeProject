@@ -1,0 +1,175 @@
+.container {
+    max-width: 1278px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #19161B;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #b8b8b8;
+}
+
+.header {
+    margin: 30px 0;
+}
+
+.headerBox {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.headerBox>nav {
+    display: flex;
+    gap: 40px;
+}
+
+.headerBox>nav>a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+/* ---------------------------------------- */
+.heroBox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+    margin-bottom: 160px;
+}
+
+.heroRight {
+    max-width: 624px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.heroContacts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.btnViewMenu {
+    background: #ffb577;
+    padding: 12px 24px;
+    border: none;
+    max-width: 168px;
+}
+
+.heroP {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #b8b8b8;
+}
+
+.heroH3 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.heroRight>h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 121%;
+    color: #fff;
+    opacity: 0.87;
+}
+
+/* -------------------------- */
+.knowUsBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.knowMoreAboutUs {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffb577;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    &::after {
+        content: "";
+        display: block;
+        background-color: #fff;
+        width: 48px;
+        height: 1px;
+    }
+}
+
+.knowUsRight {
+    max-width: 631px;
+}
+
+.knowUsRight>h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    color: #fff;
+}
+
+.knowUsRight>p {
+    margin: 24px 0 32px 0;
+}
+
+.knowUsCards {
+    display: flex;
+    gap: 35px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+.knowUsCard>h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #c4e4ea;
+}
+
+.knowUsCard>h3>img {
+    margin-right: 7px;
+}
+
+.cardAboutUsEnd {
+    margin-top: 15px;
+}
+
+.knowUsLeft {
+    position: relative;
+}
+
+.knowUsFirstImg {
+    position: absolute;
+    left: -590px;
+    top: 110px;
+}
+
+.knowUsSecondImg {
+    position: absolute;
+    left: -240px;
+    top: 40px;
+}
