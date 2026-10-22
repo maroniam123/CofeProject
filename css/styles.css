@@ -467,3 +467,157 @@ p {
     line-height: 150%;
     color: #fff;
 }
+
+
+
+
+
+
+
+/* ----------------------------------------------- */
+/* -----------MENU--------------------------- */
+/* ----------------------------------------------- */
+
+.topBoxMargin {
+    margin-top: 96px;
+}
+
+.variantsOfMenuBtns {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+
+.variantBase {
+    background: transparent;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+    border: none;
+    opacity: 0.6;
+}
+
+.variantSelect {
+    font-family: "Playfair Display", sans-serif;
+    background: transparent;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+    opacity: 1.0;
+    border: none;
+}
+
+/* ------------------------ */
+/* --------BEST COFEE------ */
+/* ------------------------ */
+
+.bestCofeeTop {
+
+    /* background-image: url('../images/bestCofee/cofeBg.png'); */
+    /* background-color: #ffb577; */
+    padding: 124px 769px 124px 80px;
+
+    &>h2 {
+        font-family: "Playfair Display", sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 121%;
+        color: #fff;
+    }
+}
+
+.NewYork {
+    color: #ffc492;
+}
+
+.bestCofeeBottom {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 77px 72px 83px 88px;
+}
+
+.bestCofeeBottom>h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #fff;
+    padding-bottom: 70px;
+}
+
+.periods {
+    display: flex;
+    border-top: 2px dashed rgba(255, 255, 255, 0.15);
+    gap: 54px;
+}
+
+.period {
+    padding-top: 32px;
+    max-width: 229px;
+
+    &>h3 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 138%;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        &::before {
+            content: "";
+            display: block;
+            background-color: #ffb577;
+            width: 46px;
+            height: 6px;
+            position: absolute;
+            top: -38px;
+        }
+    }
+
+    &>h4 {
+        font-family: "Playfair Display", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        color: #fff;
+        margin: 16px 0;
+    }
+}
+
+
+/* ----------------------------- */
+
+.flexSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.standsLeft {
+    max-width: 480px;
+}
+
+.standsLeft>h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    color: #fff;
+    opacity: 0.87;
+}
+
+.standsRight {
+    max-width: 550px;
+}
+
+.standsRight>h3 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #fff;
+    opacity: 0.87;
+}
