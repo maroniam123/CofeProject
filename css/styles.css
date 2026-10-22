@@ -1,10 +1,19 @@
 .container {
-    max-width: 1278px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
 body {
     background-color: #19161B;
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
 }
 
 p {
@@ -44,8 +53,7 @@ p {
 .heroBox {
     display: flex;
     justify-content: space-between;
-    margin-top: 96px;
-    margin-bottom: 160px;
+    margin-top: -96px;
 }
 
 .heroRight {
@@ -123,12 +131,14 @@ p {
     max-width: 631px;
 }
 
-.knowUsRight>h2 {
+.h2Section {
     font-family: "Playfair Display", sans-serif;
     font-weight: 700;
     font-size: 48px;
     line-height: 121%;
     color: #fff;
+    margin-top: 24px;
+    opacity: 0.87;
 }
 
 .knowUsRight>p {
@@ -172,4 +182,225 @@ p {
     position: absolute;
     left: -240px;
     top: 40px;
+}
+
+/* ------------------------------ */
+/* .serveTopLeft>h2 {
+    max-width: 660px;
+} */
+
+.weServeTop {
+    display: flex;
+    justify-content: space-between;
+    gap: 58px;
+    align-items: center;
+}
+
+.serveTopRight>p {
+    max-width: 680px;
+}
+
+.weServeBottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 128px;
+    background: rgba(0, 0, 0, 0.16);
+    padding: 50px;
+    margin-top: 78px;
+}
+
+.weServeCar>h3 {
+    margin: 24px 0 12px 0;
+}
+
+.weServeCar>p {
+    max-width: 299px;
+}
+
+.weServeCar>h3 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #fff;
+}
+
+/* --------------------- */
+.mostPopular {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #c4e4ea;
+    margin-top: 32px;
+}
+
+.ourMenuTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 83px;
+}
+
+
+.ourMenuTopRight>p {
+    max-width: 499px;
+}
+
+.menuGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.menuCard {
+    background: #1f1d21;
+}
+
+.menuCardInformation {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+}
+
+.menuCardName {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+    opacity: 0.87;
+}
+
+.menuCardPrice {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: #fff;
+    opacity: 0.87;
+}
+
+.btnMenuCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* ------------------------------- */
+.makeCoffeRight>h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.makeCoffeRight>p {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    color: #fff;
+    margin-top: 430px 0 68px 0;
+}
+
+.autorInformation>h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    opacity: 0.87;
+}
+
+.autorInformation>p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    color: #fff;
+    opacity: 0.6;
+
+}
+
+.makeCoffeBox {
+    display: flex;
+}
+
+.makeCoffeRight {
+    background: #1f1d21;
+    padding: 80px 78px 84px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 50px; */
+}
+
+.container1600 {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.someAutor {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoAutor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.autorLogo {
+    position: relative;
+}
+
+.autorLogo::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 69px;
+}
+
+/* --------------------------------- */
+.blogCards {
+    display: flex;
+    gap: 32px;
+}
+
+.lastBlogBox>h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    color: #fff;
+    margin-bottom: 64px;
+}
+
+.blogCard {
+    background: #1f1d21;
+}
+
+.blogCardInformation {
+    padding: 32px;
+}
+
+.blogCardInformation>h3 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #fff;
+    opacity: 0.87;
+    margin: 8px 0 16px 0;
 }
