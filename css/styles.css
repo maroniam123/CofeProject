@@ -5,9 +5,6 @@
 
 body {
     background-color: #19161B;
-    display: flex;
-    flex-direction: column;
-    gap: 160px;
 }
 
 main {
@@ -39,21 +36,11 @@ p {
     gap: 40px;
 }
 
-.headerBox>nav>a {
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    text-transform: capitalize;
-    color: #fff;
-}
-
 /* ---------------------------------------- */
 .heroBox {
     display: flex;
     justify-content: space-between;
-    margin-top: -96px;
+    margin-top: 96px;
 }
 
 .heroRight {
@@ -403,4 +390,80 @@ p {
     color: #fff;
     opacity: 0.87;
     margin: 8px 0 16px 0;
+}
+
+/* --------------------------------------- */
+.mapBox {
+    display: flex;
+}
+
+.mapInformation {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 80px 186px 80px 64px;
+    background: #1f1d21;
+}
+
+.mapInformation>div>h3 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+}
+
+/* --------------------------------------------------- */
+.navLink {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.footerTopBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+
+}
+
+.footerTop {
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.footerTopBox>nav {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 32px;
+}
+
+/* ------------------------------------ */
+
+
+.footerBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 0;
+}
+
+.footerLinks {
+    display: flex;
+    gap: 24px;
+}
+
+.btnContactUs {
+    background: transparent;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
 }
