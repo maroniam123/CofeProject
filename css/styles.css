@@ -379,7 +379,7 @@ p {
 }
 
 .blogCardInformation {
-    padding: 32px;
+    /* padding-left: 32px; */
 }
 
 .blogCardInformation>h3 {
@@ -516,8 +516,7 @@ p {
 
 .bestCofeeTop {
 
-    /* background-image: url('../images/bestCofee/cofeBg.png'); */
-    /* background-color: #ffb577; */
+    background-image: url('../images/bestCofee/cofeBg.png');
     padding: 124px 769px 124px 80px;
 
     &>h2 {
@@ -679,6 +678,7 @@ p {
 .featuredBox {
     display: flex;
     /* justify-content: space-between; */
+    align-items: flex-start;
     gap: 32px;
 }
 
@@ -704,26 +704,29 @@ p {
     letter-spacing: 0.19em;
     text-transform: uppercase;
     color: #fff;
+
     padding: 14px 30px;
     max-width: 159px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    box-sizing: border-box;
+    /* position: absolute; */
+    margin-bottom: 184px;
+
 }
 
+
 .featuridLeftBlog {
-    background-color: #1f1d21;
-    /* width: 624px;
-    height: 496px; */
+    width: 624px;
+    box-sizing: border-box;
     position: relative;
-    padding: 236px 64px 40px 64px;
-    max-width: 624px;
-    /* height: 496px; */
-    /* background-image: url('../images/featuredBlogs/BG.png'); */
+    padding: 0px 64px 40px 0px;
+    /* max-width: 624px; */
+    background: url('../images/featuredBlogs/BG.png');
+    background-size: cover;
 }
 
 .autorText>p {
-    width: 198px;
+    max-width: 198px;
+    min-width: 197px;
 }
 
 .featuridLeftBlog>h3 {
@@ -733,6 +736,7 @@ p {
     line-height: 133%;
     color: #fff;
     max-width: 451px;
+    padding-left: 64px;
 }
 
 .autorText>h4 {
@@ -748,6 +752,7 @@ p {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    padding-left: 64px;
 }
 
 .blogAutorRight {
@@ -764,6 +769,7 @@ p {
     line-height: 175%;
     color: #fff;
     opacity: 0.87;
+    text-decoration: none;
 }
 
 .featuredRightBlog {
@@ -774,13 +780,15 @@ p {
 
 .featuredBlogCard {
     display: flex;
+    align-items: flex-start;
     gap: 32px;
     max-width: 737px;
 
-    /* &>img {
-        max-width: 132px;
-        max-height: 144px;
-    } */
+    &>img {
+        display: block;
+        width: 132px;
+        height: 144px;
+    }
 }
 
 .blogCardInformation>h3 {
@@ -852,4 +860,147 @@ p {
         color: #fff;
         opacity: 0.87;
     }
+}
+
+/* -------------------------------------- */
+
+.contactBox {
+    display: flex;
+    gap: 80px;
+}
+
+.contactForm {
+    max-width: 658px;
+}
+
+.contactForm>h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    color: #fff;
+    opacity: 0.87;
+
+}
+
+.contactForm>p {
+    margin: 24px 0 40px 0;
+}
+
+input {
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    background: transparent;
+    padding: 14px 0px 105px 32px;
+    margin: 24px 0 32px 0;
+    width: 623px;
+}
+
+.nameAndEmail {
+    display: flex;
+    gap: 32px;
+
+}
+
+.nameAndEmail>input {
+    padding: 14px 0px 14px 32px;
+    margin: 0;
+    width: 297px;
+}
+
+.btnSendMessege {
+    background: #27252d;
+    border: none;
+    padding: 20px 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    opacity: 0.87;
+
+    &>img {
+        margin-left: 12px;
+    }
+}
+
+.formImages {
+    position: relative;
+    margin-left: 10px;
+}
+
+.formImg1 {
+    position: absolute;
+    top: 80px;
+}
+
+
+.formImg2 {
+    position: absolute;
+    right: -520px;
+}
+
+/* ----------------------------- */
+
+.boxCenter {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+    &>h1 {
+        font-family: "Playfair Display", sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 121%;
+        text-align: center;
+        color: #fff;
+        max-width: 1061px;
+    }
+
+    &>img {
+        margin: 80px 0;
+    }
+}
+
+.autorFull {
+    display: flex;
+    align-items: center;
+}
+
+.border {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 648px;
+    height: 1px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.nameAutor {
+    margin: 0 24px 0 12px;
+}
+
+.innerTextInformation {
+    max-width: 842px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.innerTextInformation>h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #fff;
+    opacity: 0.87;
+}
+
+.innerTextInformation>h3 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+    opacity: 0.8;
 }
